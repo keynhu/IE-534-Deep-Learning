@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+
+\title{IE 534 Homework 3 Report}
+\author{Hanwen Hu}
+
+\begin{document}
+In this homework, I have achieved a training accuracy of 80.21\%, and testing accuracy of 77.29\%. A brief introduction of my implementation is given below.\\
+
+\section{Basic Architecture}
+The basic architecture of this Deep CNN is given as below:\\
+* Conv layer 1: 64 channels, k = 4; s = 1; P = 2 $\rightarrow$ ReLu $\rightarrow$ Batch Norm\\
+* Conv layer 2: 64 channels, k = 4; s = 1; P = 2 $\rightarrow$ ReLu\\
+* Max Pooling: s = 2, k = 2\\
+* Dropout: p = 0.1\\
+* Conv layer 3: 64 channels, k = 4; s = 1; P = 2 $\rightarrow$ ReLu $\rightarrow$ Batch Norm\\
+* Conv layer 4: 64 channels, k = 4; s = 1; P = 2 $\rightarrow$ ReLu\\
+* Max Pooling: s = 2, k = 2\\
+* Dropout: p = 0.1\\
+* Conv layer 5: 64 channels, k = 4; s = 1; P = 2 $\rightarrow$ ReLu $\rightarrow$ Batch Norm\\
+* Conv layer 6: 64 channels, k = 3; s = 1; P = 0 $\rightarrow$ ReLu\\
+* Dropout: p = 0.1\\
+* Conv layer 7: 64 channels, k = 3; s = 1; P = 0 $\rightarrow$ ReLu $\rightarrow$ Batch Norm\\
+* Conv layer 8: 64 channels, k = 3; s = 1; P = 0 $\rightarrow$ ReLu $\rightarrow$ Batch Norm\\
+* Dropout: p = 0.1\\
+* Fully connected layer 1: 500 units $\rightarrow$ ReLu\\
+* Fully connected layer 2: 500 units $\rightarrow$ ReLu\\
+* Fully connected layer 3: 10 units $\rightarrow$ Softmax.
+
+\section{Hyperparameter Settings and Time Cost}
+This Deep CNN has done two types of data augmentation, i.e. random vertical flip, as well as random center crop.\\
+Input images are shuffled, then divided into mini batches, with batch size as 100.\\
+The training process runs 100 epochs in total. The original learning rate is given as 1e-4, but then adjusted with ADAM during training.\\
+In total, it costs around 67 minutes to train the network.
+
+\end{document}
