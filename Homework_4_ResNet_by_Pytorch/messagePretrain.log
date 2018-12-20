@@ -1,0 +1,92 @@
+2018-10-06 12:24:00,589 - [INFO] - torch version: 0.4.1
+2018-10-06 13:03:30,852 - [INFO] - torch version: 0.4.1
+2018-10-06 13:18:40,742 - [INFO] - Epoch[1/50], Step[500/500], Loss 10.395191, Accuracy 0.242000%
+2018-10-06 13:21:14,861 - [INFO] - Test Accuracy of the model on test images:0.29%
+2018-10-06 13:21:14,861 - [INFO] - Total cost time:0:14:51.651378
+2018-10-06 13:36:05,193 - [INFO] - Epoch[2/50], Step[500/500], Loss 10.251972, Accuracy 0.226000%
+2018-10-06 13:38:39,160 - [INFO] - Test Accuracy of the model on test images:0.22%
+2018-10-06 13:38:39,160 - [INFO] - Total cost time:0:32:16.102715
+2018-10-06 14:31:28,568 - [INFO] - torch version: 0.4.1
+2018-10-06 14:38:58,928 - [INFO] - torch version: 0.4.1
+2018-10-06 14:51:24,430 - [INFO] - Epoch[1/50], Step[500/500], Loss 10.491308, Accuracy 0.276000%
+2018-10-06 14:53:26,267 - [INFO] - Test Accuracy of the model on test images:0.32%
+2018-10-06 14:53:26,267 - [INFO] - Total cost time:0:12:10.953447
+2018-10-06 15:05:36,039 - [INFO] - Epoch[2/50], Step[500/500], Loss 10.243950, Accuracy 0.292000%
+2018-10-06 15:07:37,892 - [INFO] - Test Accuracy of the model on test images:0.3%
+2018-10-06 15:07:37,892 - [INFO] - Total cost time:0:26:22.562186
+2018-10-06 15:19:47,577 - [INFO] - Epoch[3/50], Step[500/500], Loss 10.513966, Accuracy 0.288000%
+2018-10-06 15:21:49,422 - [INFO] - Test Accuracy of the model on test images:0.38%
+2018-10-06 15:21:49,422 - [INFO] - Total cost time:0:40:34.100027
+2018-10-06 15:33:59,204 - [INFO] - Epoch[4/50], Step[500/500], Loss 10.373844, Accuracy 0.256000%
+2018-10-06 15:36:01,073 - [INFO] - Test Accuracy of the model on test images:0.32%
+2018-10-06 15:36:01,073 - [INFO] - Total cost time:0:54:45.727742
+2018-10-06 15:50:05,979 - [INFO] - torch version: 0.4.1
+2018-10-06 16:03:38,412 - [INFO] - Epoch[1/50], Step[500/500], Loss 3.903542, Accuracy 7.222000%
+2018-10-06 16:05:52,332 - [INFO] - Test Accuracy of the model on test images:17.580000000000002%
+2018-10-06 16:05:52,332 - [INFO] - Total cost time:0:13:20.271922
+2018-10-06 16:19:11,273 - [INFO] - Epoch[2/50], Step[500/500], Loss 2.866637, Accuracy 27.234000%
+2018-10-06 16:21:25,228 - [INFO] - Test Accuracy of the model on test images:35.49%
+2018-10-06 16:21:25,228 - [INFO] - Total cost time:0:28:53.133250
+2018-10-06 16:34:44,143 - [INFO] - Epoch[3/50], Step[500/500], Loss 2.177500, Accuracy 42.550000%
+2018-10-06 16:36:58,112 - [INFO] - Test Accuracy of the model on test images:46.23%
+2018-10-06 16:36:58,113 - [INFO] - Total cost time:0:44:26.002724
+2018-10-06 16:50:17,056 - [INFO] - Epoch[4/50], Step[500/500], Loss 1.838883, Accuracy 52.522000%
+2018-10-06 16:52:31,011 - [INFO] - Test Accuracy of the model on test images:53.25%
+2018-10-06 16:52:31,011 - [INFO] - Total cost time:0:59:58.915680
+2018-10-06 17:05:50,052 - [INFO] - Epoch[5/50], Step[500/500], Loss 1.681254, Accuracy 59.174000%
+2018-10-06 17:08:04,007 - [INFO] - Test Accuracy of the model on test images:58.68%
+2018-10-06 17:08:04,008 - [INFO] - Total cost time:1:15:31.911587
+2018-10-06 17:21:22,995 - [INFO] - Epoch[6/50], Step[500/500], Loss 1.100873, Accuracy 63.958000%
+2018-10-06 17:23:36,995 - [INFO] - Test Accuracy of the model on test images:61.28%
+2018-10-06 17:23:36,996 - [INFO] - Total cost time:1:31:04.855373
+2018-10-06 17:36:55,948 - [INFO] - Epoch[7/50], Step[500/500], Loss 1.172217, Accuracy 67.460000%
+2018-10-06 17:39:09,894 - [INFO] - Test Accuracy of the model on test images:64.05%
+2018-10-06 17:39:09,894 - [INFO] - Total cost time:1:46:37.807568
+2018-10-06 17:52:28,899 - [INFO] - Epoch[8/50], Step[500/500], Loss 1.040896, Accuracy 70.306000%
+2018-10-06 17:54:42,888 - [INFO] - Test Accuracy of the model on test images:65.72%
+2018-10-06 17:54:42,889 - [INFO] - Total cost time:2:02:10.759171
+2018-10-06 18:08:01,837 - [INFO] - Epoch[9/50], Step[500/500], Loss 0.825949, Accuracy 72.868000%
+2018-10-06 18:10:15,742 - [INFO] - Test Accuracy of the model on test images:66.72%
+2018-10-06 18:10:15,742 - [INFO] - Total cost time:2:17:43.696557
+2018-10-06 18:23:34,690 - [INFO] - Epoch[10/50], Step[500/500], Loss 0.813622, Accuracy 74.560000%
+2018-10-06 18:25:48,648 - [INFO] - Test Accuracy of the model on test images:67.97%
+2018-10-06 18:25:48,648 - [INFO] - Total cost time:2:33:16.550445
+2018-10-06 18:39:07,672 - [INFO] - Epoch[11/50], Step[500/500], Loss 0.997964, Accuracy 76.462000%
+2018-10-06 18:41:21,650 - [INFO] - Test Accuracy of the model on test images:68.60000000000001%
+2018-10-06 18:41:21,650 - [INFO] - Total cost time:2:48:49.531748
+2018-10-06 18:54:40,609 - [INFO] - Epoch[12/50], Step[500/500], Loss 0.596556, Accuracy 78.062000%
+2018-10-06 18:56:54,580 - [INFO] - Test Accuracy of the model on test images:69.44%
+2018-10-06 18:56:54,581 - [INFO] - Total cost time:3:04:22.468599
+2018-10-06 19:10:13,532 - [INFO] - Epoch[13/50], Step[500/500], Loss 0.786679, Accuracy 79.628000%
+2018-10-06 19:12:27,523 - [INFO] - Test Accuracy of the model on test images:70.26%
+2018-10-06 19:12:27,524 - [INFO] - Total cost time:3:19:55.392340
+2018-10-06 19:25:46,552 - [INFO] - Epoch[14/50], Step[500/500], Loss 0.657194, Accuracy 81.014000%
+2018-10-06 19:28:00,552 - [INFO] - Test Accuracy of the model on test images:70.74000000000001%
+2018-10-06 19:28:00,553 - [INFO] - Total cost time:3:35:28.412154
+2018-10-06 19:41:19,540 - [INFO] - Epoch[15/50], Step[500/500], Loss 0.655490, Accuracy 82.370000%
+2018-10-06 19:43:33,460 - [INFO] - Test Accuracy of the model on test images:71.3%
+2018-10-06 19:43:33,460 - [INFO] - Total cost time:3:51:01.400062
+2018-10-06 19:56:52,530 - [INFO] - Epoch[16/50], Step[500/500], Loss 0.631946, Accuracy 83.868000%
+2018-10-06 19:59:06,526 - [INFO] - Test Accuracy of the model on test images:71.09%
+2018-10-06 19:59:06,526 - [INFO] - Total cost time:4:06:34.390336
+2018-10-06 20:12:25,546 - [INFO] - Epoch[17/50], Step[500/500], Loss 0.471542, Accuracy 84.810000%
+2018-10-06 20:14:39,518 - [INFO] - Test Accuracy of the model on test images:72.14%
+2018-10-06 20:14:39,518 - [INFO] - Total cost time:4:22:07.405771
+2018-10-06 20:27:58,463 - [INFO] - Epoch[18/50], Step[500/500], Loss 0.718037, Accuracy 85.778000%
+2018-10-06 20:30:12,466 - [INFO] - Test Accuracy of the model on test images:72.06%
+2018-10-06 20:30:12,466 - [INFO] - Total cost time:4:37:40.323316
+2018-10-06 20:43:31,501 - [INFO] - Epoch[19/50], Step[500/500], Loss 0.552900, Accuracy 86.956000%
+2018-10-06 20:45:45,453 - [INFO] - Test Accuracy of the model on test images:72.72999999999999%
+2018-10-06 20:45:45,454 - [INFO] - Total cost time:4:53:13.360517
+2018-10-06 20:59:04,552 - [INFO] - Epoch[20/50], Step[500/500], Loss 0.663288, Accuracy 88.128000%
+2018-10-06 21:01:18,555 - [INFO] - Test Accuracy of the model on test images:72.59%
+2018-10-06 21:01:18,555 - [INFO] - Total cost time:5:08:46.412026
+2018-10-06 21:14:37,501 - [INFO] - Epoch[21/50], Step[500/500], Loss 0.548832, Accuracy 89.048000%
+2018-10-06 21:16:51,436 - [INFO] - Test Accuracy of the model on test images:72.68%
+2018-10-06 21:16:51,436 - [INFO] - Total cost time:5:24:19.361018
+2018-10-06 21:30:10,486 - [INFO] - Epoch[22/50], Step[500/500], Loss 0.493365, Accuracy 89.840000%
+2018-10-06 21:32:24,425 - [INFO] - Test Accuracy of the model on test images:73.17%
+2018-10-06 21:32:24,425 - [INFO] - Total cost time:5:39:52.345652
+2018-10-06 21:45:43,523 - [INFO] - Epoch[23/50], Step[500/500], Loss 0.399361, Accuracy 90.660000%
+2018-10-06 21:47:57,510 - [INFO] - Test Accuracy of the model on test images:73.47%
+2018-10-06 21:47:57,510 - [INFO] - Total cost time:5:55:25.383054

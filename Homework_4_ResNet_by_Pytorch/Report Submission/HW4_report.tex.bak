@@ -1,0 +1,27 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+
+\title{IE 534 Homework 4 Report}
+\author{Hanwen Hu}
+\maketitle
+
+\begin{document}
+
+\section()
+
+
+\section{Hyperparameter Settings and Time Cost}
+For the first Neural Network
+This Deep CNN has done two types of data augmentation, i.e. random vertical flip, as well as random center crop.\\
+Input images are shuffled, then divided into mini batches, with batch size as 100.\\
+The training process runs 100 epochs in total. The original learning rate is given as 1e-4, but then adjusted with ADAM during training.\\
+In total, it costs around 67 minutes to train the network.
+
+\section{Accuracy Graph}
+For the first ResNet, the accuracy 
+\begin{figure}
+\centering
+\includegraphics{}
+
+
+\end{document}

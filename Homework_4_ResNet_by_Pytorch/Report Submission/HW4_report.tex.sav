@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+
+\title{IE 534 Homework 4 Report}
+\author{Hanwen Hu}
+\maketitle
+
+\begin{document}
+
+This homework asks us to train two networks, i.e. 
+
+\section{Hyperparameter Settings and Time Cost}
+For the first ResNet, the training process runs 50 epochs in total. ADAM is applied during training, and the original learning rate is given as 1e-3. In addition, dropout rate is set as 0.2, \\
+Input images are shuffled, then divided into mini batches, with batch size as 100. Two types of data augmentation are implemented: random horizontal flip and random center crop with 32$\times$32 and padding 4.\\
+It costs 101 minutes in total to train the network.\\
+\smallskip
+For the second 
+The training process runs 100 epochs in total. The original learning rate is given as 1e-4, but then adjusted with ADAM during training.\\
+In total, it costs around 67 minutes to train the network.
+
+\section{Accuracy Graph}
+For the first ResNet, the accuracy graph is shown as the following. The test accuracy achieves 60.05\% at the 31st epoch, but is then oscillating around 60\%. It seems that my code needs to be improved before it can provide a higher accuracy.
+\begin{figure}
+\centering
+\includegraphics{ResNet Scratch Model Accuracy.png}
+\end{figure}
+
+And for the pretrained ResNet, the test accuracy achieves 70.26\% at the 13th epoch, and achieves 73.47\% at the 23rd epoch. Since the walltime is set as 6 hours, the algorithm is then terminated. If given more training time, this number may be able to be over 75\%.
+\begin{figure}
+\centering
+\includegraphics{Pretrained Model Accuracy.png}
+\end{figure}
+
+\end{document}

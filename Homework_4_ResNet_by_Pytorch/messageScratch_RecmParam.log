@@ -1,0 +1,169 @@
+----------------------------------------
+Begin Torque Prologue on nid25337
+at Mon Oct  8 22:22:07 CDT 2018
+Job Id:			9087793.bw
+Username:		tra393
+Group:			TRAIN_bauh
+Job name:		ResNet_Keyn
+Requested resources:	neednodes=1:ppn=16:xk,nodes=1:ppn=16:xk,walltime=06:00:00
+Queue:			normal
+Account:		bauh
+End Torque Prologue:  0.176 elapsed
+----------------------------------------
+
+
+
+
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch[1/50], Step[391/391], Loss 3.740634, Accuracy 8.598000%
+Test Accuracy of the model on test images:16.28%
+Total cost time:0:01:53.206640
+Epoch[2/50], Step[391/391], Loss 3.159139, Accuracy 19.160000%
+Test Accuracy of the model on test images:26.39%
+Total cost time:0:03:54.758591
+Epoch[3/50], Step[391/391], Loss 2.332994, Accuracy 28.352000%
+Test Accuracy of the model on test images:33.83%
+Total cost time:0:05:56.286376
+Epoch[4/50], Step[391/391], Loss 2.603408, Accuracy 35.902000%
+Test Accuracy of the model on test images:39.78%
+Total cost time:0:07:57.796316
+Epoch[5/50], Step[391/391], Loss 1.912226, Accuracy 41.814000%
+Test Accuracy of the model on test images:44.45%
+Total cost time:0:09:59.283236
+Epoch[6/50], Step[391/391], Loss 1.836424, Accuracy 46.880000%
+Test Accuracy of the model on test images:46.71%
+Total cost time:0:12:00.794662
+Epoch[7/50], Step[391/391], Loss 1.824392, Accuracy 51.582000%
+Test Accuracy of the model on test images:50.94%
+Total cost time:0:14:02.320807
+Epoch[8/50], Step[391/391], Loss 1.492591, Accuracy 54.776000%
+Test Accuracy of the model on test images:52.62%
+Total cost time:0:16:03.831673
+Epoch[9/50], Step[391/391], Loss 1.695896, Accuracy 57.622000%
+Test Accuracy of the model on test images:53.32%
+Total cost time:0:18:05.367245
+Epoch[10/50], Step[391/391], Loss 1.335459, Accuracy 59.846000%
+Test Accuracy of the model on test images:53.25%
+Total cost time:0:20:06.867683
+Epoch[11/50], Step[391/391], Loss 1.408651, Accuracy 62.186000%
+Test Accuracy of the model on test images:56.010000000000005%
+Total cost time:0:22:08.395519
+Epoch[12/50], Step[391/391], Loss 1.025447, Accuracy 64.250000%
+Test Accuracy of the model on test images:55.53%
+Total cost time:0:24:09.890245
+Epoch[13/50], Step[391/391], Loss 1.011065, Accuracy 66.278000%
+Test Accuracy of the model on test images:57.35%
+Total cost time:0:26:11.413833
+Epoch[14/50], Step[391/391], Loss 1.101373, Accuracy 68.230000%
+Test Accuracy of the model on test images:58.02%
+Total cost time:0:28:12.933856
+Epoch[15/50], Step[391/391], Loss 0.788768, Accuracy 69.706000%
+Test Accuracy of the model on test images:57.92%
+Total cost time:0:30:14.450832
+Epoch[16/50], Step[391/391], Loss 0.804421, Accuracy 71.704000%
+Test Accuracy of the model on test images:58.39%
+Total cost time:0:32:15.951297
+Epoch[17/50], Step[391/391], Loss 0.701954, Accuracy 72.822000%
+Test Accuracy of the model on test images:57.05%
+Total cost time:0:34:17.426047
+Epoch[18/50], Step[391/391], Loss 0.929605, Accuracy 73.886000%
+Test Accuracy of the model on test images:58.8%
+Total cost time:0:36:18.921117
+Epoch[19/50], Step[391/391], Loss 0.825596, Accuracy 75.478000%
+Test Accuracy of the model on test images:59.309999999999995%
+Total cost time:0:38:20.422678
+Epoch[20/50], Step[391/391], Loss 0.561036, Accuracy 76.516000%
+Test Accuracy of the model on test images:58.77%
+Total cost time:0:40:21.921737
+Epoch[21/50], Step[391/391], Loss 0.788344, Accuracy 77.636000%
+Test Accuracy of the model on test images:59.11%
+Total cost time:0:42:23.427493
+Epoch[22/50], Step[391/391], Loss 0.744749, Accuracy 78.566000%
+Test Accuracy of the model on test images:59.74%
+Total cost time:0:44:24.955448
+Epoch[23/50], Step[391/391], Loss 0.747715, Accuracy 79.558000%
+Test Accuracy of the model on test images:59.28%
+Total cost time:0:46:26.456369
+Epoch[24/50], Step[391/391], Loss 0.722165, Accuracy 80.578000%
+Test Accuracy of the model on test images:58.5%
+Total cost time:0:48:27.977847
+Epoch[25/50], Step[391/391], Loss 0.363657, Accuracy 81.236000%
+Test Accuracy of the model on test images:59.13%
+Total cost time:0:50:29.457895
+Epoch[26/50], Step[391/391], Loss 0.659254, Accuracy 81.514000%
+Test Accuracy of the model on test images:59.53000000000001%
+Total cost time:0:52:30.941713
+Epoch[27/50], Step[391/391], Loss 0.440432, Accuracy 82.760000%
+Test Accuracy of the model on test images:59.199999999999996%
+Total cost time:0:54:32.478130
+Epoch[28/50], Step[391/391], Loss 0.526001, Accuracy 83.388000%
+Test Accuracy of the model on test images:59.14%
+Total cost time:0:56:33.959150
+Epoch[29/50], Step[391/391], Loss 0.786062, Accuracy 83.996000%
+Test Accuracy of the model on test images:59.41%
+Total cost time:0:58:35.444880
+Epoch[30/50], Step[391/391], Loss 0.410248, Accuracy 84.870000%
+Test Accuracy of the model on test images:59.46%
+Total cost time:1:00:36.960426
+Epoch[31/50], Step[391/391], Loss 0.508121, Accuracy 84.946000%
+Test Accuracy of the model on test images:60.050000000000004%
+Total cost time:1:02:38.455603
+Epoch[32/50], Step[391/391], Loss 0.477687, Accuracy 85.546000%
+Test Accuracy of the model on test images:59.919999999999995%
+Total cost time:1:04:39.958911
+Epoch[33/50], Step[391/391], Loss 0.647173, Accuracy 85.970000%
+Test Accuracy of the model on test images:60.5%
+Total cost time:1:06:41.460545
+Epoch[34/50], Step[391/391], Loss 0.408079, Accuracy 86.710000%
+Test Accuracy of the model on test images:59.68%
+Total cost time:1:08:42.959546
+Epoch[35/50], Step[391/391], Loss 0.406303, Accuracy 87.052000%
+Test Accuracy of the model on test images:60.209999999999994%
+Total cost time:1:10:44.447886
+Epoch[36/50], Step[391/391], Loss 0.440102, Accuracy 87.324000%
+Test Accuracy of the model on test images:61.19%
+Total cost time:1:12:45.954583
+Epoch[37/50], Step[391/391], Loss 0.513047, Accuracy 87.600000%
+Test Accuracy of the model on test images:59.72%
+Total cost time:1:14:47.463524
+Epoch[38/50], Step[391/391], Loss 0.361048, Accuracy 88.142000%
+Test Accuracy of the model on test images:59.97%
+Total cost time:1:16:48.970433
+Epoch[39/50], Step[391/391], Loss 0.304985, Accuracy 88.424000%
+Test Accuracy of the model on test images:59.91%
+Total cost time:1:18:50.459007
+Epoch[40/50], Step[391/391], Loss 0.259577, Accuracy 88.616000%
+Test Accuracy of the model on test images:59.58%
+Total cost time:1:20:51.986394
+Epoch[41/50], Step[391/391], Loss 0.228205, Accuracy 88.980000%
+Test Accuracy of the model on test images:59.489999999999995%
+Total cost time:1:22:53.521464
+Epoch[42/50], Step[391/391], Loss 0.375393, Accuracy 89.118000%
+Test Accuracy of the model on test images:59.660000000000004%
+Total cost time:1:24:55.027180
+Epoch[43/50], Step[391/391], Loss 0.382953, Accuracy 89.476000%
+Test Accuracy of the model on test images:59.589999999999996%
+Total cost time:1:26:56.537085
+Epoch[44/50], Step[391/391], Loss 0.350449, Accuracy 89.788000%
+Test Accuracy of the model on test images:59.099999999999994%
+Total cost time:1:28:58.064242
+Epoch[45/50], Step[391/391], Loss 0.206718, Accuracy 90.162000%
+Test Accuracy of the model on test images:59.650000000000006%
+Total cost time:1:30:59.561735
+Epoch[46/50], Step[391/391], Loss 0.315781, Accuracy 90.160000%
+Test Accuracy of the model on test images:59.870000000000005%
+Total cost time:1:33:01.052928
+Epoch[47/50], Step[391/391], Loss 0.262229, Accuracy 90.410000%
+Test Accuracy of the model on test images:59.86%
+Total cost time:1:35:02.541054
+Epoch[48/50], Step[391/391], Loss 0.267776, Accuracy 90.460000%
+Test Accuracy of the model on test images:60.309999999999995%
+Total cost time:1:37:04.011340
+Epoch[49/50], Step[391/391], Loss 0.343887, Accuracy 91.220000%
+Test Accuracy of the model on test images:59.940000000000005%
+Total cost time:1:39:05.518954
+Epoch[50/50], Step[391/391], Loss 0.264453, Accuracy 90.996000%
+Test Accuracy of the model on test images:60.099999999999994%
+Total cost time:1:41:07.042099
+Application 70054387 resources: utime ~5780s, stime ~318s, Rss ~1601924, inblocks ~1856779, outblocks ~32171
