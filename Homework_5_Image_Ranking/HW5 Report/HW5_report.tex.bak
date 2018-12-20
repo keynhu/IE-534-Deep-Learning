@@ -1,0 +1,37 @@
+\documentclass[15pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{IE 534 Homework 5 Report}
+\author{Hanwen Hu}
+
+\begin{document}
+\maketitle
+
+This homework asks us to train an Image Ranking network with ResNet, with dataset tiny-imagenet-200.\\
+As for the final result, the train accuracy has achieved 52.13\%, and test accuracy has achieved 50.35\%.
+
+\section{Hyperparameter Settings and Time Cost}
+For this network, I choose pretrained ResNet18 as initialization of the whole network. It runs 19 epochs in total, costing almost 12 hours, and SGD beginning from 1e-3 with momentum 0.9 is applied during training.\\
+Input images are shuffled, then divided into mini batches, with batch size as 64. This is the empirical largest value for batch size, otherwise overflow errors may occur on BlueWaters. \\
+
+\section{Dataset Preprocess}
+The dataset to use is stipulated that each epoch should be trained with a brand new triplet, each training image being the query image for exactly one time. To realize this, I sample the paths of each triplet and write 30 txt files for a maximum of 30 epochs, and read the paths at the beginning of each epoch to load all image triplets.\\
+In addition, I notice the images are repeated loaded and going through the same transformation in the whole training process, which actually costs much time. Therefore, I transform all images to be (224 $\times$ 224) and save them in the 'RGB' mode.\\
+Last but not least, to conveniently load the validation image set, I divide them into 200 folders according to the classes they belong (recorded in the annotation text file.
+
+\section{Loss Graph}
+The training loss graph is given below. As is observed, the loss keeps decreasing during the training process.
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{"Train_Loss_Plot"}
+\caption{Train Loss graph of Image Ranking ResNet18}
+\end{figure}
+
+\section{Exhibition of 5 validation pictures}
+
+
+\section{Improvement}
+One improvement that's possible to make is to advance the sampling strategy. For now, the triplets are sampled uniformly
+
+\end{document}

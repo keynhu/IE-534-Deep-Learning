@@ -1,0 +1,41 @@
+\documentclass[15pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{IE 534 Homework 5 Report}
+\author{Hanwen Hu}
+
+\begin{document}
+\maketitle
+
+This homework asks us to train an Image Ranking network with ResNet, with dataset tiny-imagenet-200.
+
+\section{Hyperparameter Settings and Time Cost}
+For this network, I choose pretrained ResNet18 as initialization of the whole network. It runs 19 epochs in total, costing almost 12 hours, and SGD beginning from 1e-3 with momentum 0.9 is applied during training.\\
+Input images are shuffled, then divided into mini batches, with batch size as 64. This is the empirical largest value for batch size, otherwise overflow errors may occur on BlueWaters. \\
+
+\section{Dataset Preprocess}
+The dataset to use is stipulated that each epoch should be trained with a brand new triplet, each training image being the query image for exactly one time. To realize this, I sample the paths of each triplet and write 30 txt files for a maximum of 30 epochs, and read the paths at the beginning of each epoch to load all image triplets.\\
+In addition, I notice the images are repeated loaded and going through the same transformation in the whole training process, which actually costs much time. Therefore, I transform all images to be (224 $\times$ 224) and save them in the 'RGB' mode.\\
+Last but not least, to conveniently load the validation image set, I divide them into 200 folders according to the classes they belong (recorded in the text file "tiny-imagenet-200/val/val_annotations.txt").
+
+\section{Quantitative Results}
+\subsection{Loss Graph}
+For the first ResNet, the accuracy graph is shown as Figure 1. The test accuracy achieves 60.05\% at the 31st epoch, but is then oscillating around 60\%. It seems that my code needs to be improved before it can provide a higher accuracy.\\
+And for the pretrained ResNet, the accuracy graph is shown as Figure 2. The test accuracy achieves 70.26\% at the 13th epoch, and achieves 73.47\% at the 23rd epoch. Since the walltime is set as 6 hours, the algorithm is then terminated. If given more training time, this number may be able to be over 75\%.
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{"ResNet Scratch Model Accuracy"}
+\caption{Accuracy graph of ResNet specified in homework sheet}
+\end{figure}
+
+\subsection{Table of Similarity Precision}
+
+
+\section{Exhibition of 5 validation pictures}
+
+
+\section{Improvement}
+One improvement that's possible to make is to advance the sampling strategy. For now, the triplets are sampled uniformly
+
+\end{document}
