@@ -1,0 +1,66 @@
+----------------------------------------
+Begin Torque Prologue on nid27563
+at Mon Nov 19 00:22:13 CST 2018
+Job Id:			9237153.bw
+Username:		tra393
+Group:			TRAIN_bauh
+Job name:		SeqFrames_AR_Train
+Requested resources:	nodes=1:ppn=16:xk,walltime=48:00:00,neednodes=1:ppn=16:xk
+Queue:			normal
+Account:		bauh
+End Torque Prologue:  0.123 elapsed
+----------------------------------------
+
+
+
+
+Start training at:  2018-11-19 00:22:56.917339
+Epoch 1/20, cumulative train accuracy: 48.76258389261745%
+Cost Time:  0:33:38.112261
+Epoch 1/20, cumulative test accuracy: 69.54449152542372%
+Cost Time:  0:48:07.564523
+Epoch 2/20, cumulative train accuracy: 83.41023489932886%
+Cost Time:  1:22:25.319466
+Epoch 2/20, cumulative test accuracy: 79.60805084745763%
+Cost Time:  1:37:16.959972
+Exception: /projects/training/bauh/AR/UCF-101-hdf5/Surfing/v_Surfing_g08_c03.hdf5
+Epoch 3/20, cumulative train accuracy: 92.6890756302521%
+Cost Time:  2:14:30.042093
+Epoch 3/20, cumulative test accuracy: 81.54131355932203%
+Cost Time:  2:29:11.949201
+Epoch 4/20, cumulative train accuracy: 96.47651006711409%
+Cost Time:  3:06:28.116225
+Epoch 4/20, cumulative test accuracy: 81.75317796610169%
+Cost Time:  3:21:15.814952
+Exception: /projects/training/bauh/AR/UCF-101-hdf5/Surfing/v_Surfing_g08_c03.hdf5
+Epoch 5/20, cumulative train accuracy: 97.6155462184874%
+Cost Time:  3:58:24.286855
+Epoch 5/20, cumulative test accuracy: 83.1832627118644%
+Cost Time:  4:13:08.053661
+Epoch 6/20, cumulative train accuracy: 98.3011744966443%
+Cost Time:  4:50:16.714019
+Epoch 6/20, cumulative test accuracy: 83.34216101694915%
+Cost Time:  5:05:00.327312
+Epoch 7/20, cumulative train accuracy: 98.72063758389261%
+Cost Time:  5:42:16.445051
+Epoch 7/20, cumulative test accuracy: 83.23622881355932%
+Cost Time:  5:57:03.929344
+Exception: /projects/training/bauh/AR/UCF-101-hdf5/Surfing/v_Surfing_g08_c06.hdf5
+Epoch 8/20, cumulative train accuracy: 98.80252100840336%
+Cost Time:  6:34:13.645517
+Epoch 8/20, cumulative test accuracy: 83.28919491525424%
+Cost Time:  6:48:56.934654
+Epoch 9/20, cumulative train accuracy: 98.85696308724832%
+Cost Time:  7:26:18.485923
+Epoch 9/20, cumulative test accuracy: 81.11758474576271%
+Cost Time:  7:41:05.873253
+Epoch 10/20, cumulative train accuracy: 99.10864093959732%
+Cost Time:  8:18:19.393564
+Epoch 10/20, cumulative test accuracy: 83.1832627118644%
+Cost Time:  8:33:20.568166
+Epoch 11/20, cumulative train accuracy: 99.06669463087249%
+Cost Time:  9:10:51.470458
+Epoch 11/20, cumulative test accuracy: 83.47457627118644%
+Cost Time:  9:25:42.234725
+Application 70920753 exit codes: 1
+Application 70920753 resources: utime ~27937s, stime ~6533s, Rss ~2588356, inblocks ~3796175921, outblocks ~2813419866
