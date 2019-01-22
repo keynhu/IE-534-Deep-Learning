@@ -1,0 +1,8 @@
+A list of explanation for all parameters in CaptionDataset is given below:
+image_folder: leads to a directory which saves all the images, can be train image folder or validation image folder.
+caption_path: leads to a json file which saves all the captions, can be train image captions or validation image folder.
+word_map: a dictionary which maps words to indices.
+split: decide we use the data set for training or validation. The only difference is validation split will return ¡°all_captions¡± which have all available captions for the image, which will be used to calculate the BLEU-4 score later.
+captions_per_image: defines the number of captions for each image, default is 5.
+max_len_caption: defines the max length of the caption we used, if the caption length is less than 100, we will pad the caption, if the caption length is bigger than 100, we will drop that caption and sample captions with replacement to make sure we have 5 captions for each image.
+transform: defined the transformation we will apply to the image, default is none.
