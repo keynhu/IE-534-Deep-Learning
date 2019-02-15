@@ -1,17 +1,20 @@
-Part_1_Code
+This folder saves the original codes to build Deep Neural Networks with 
 
-IMDB_Preprocess.py
+# Part_1_Code
+This part builds a Bag-of-Words model to 
 
-
-IMDB_BoW_basic_Part1a.py
-
-
-IMDB_BoW_GloVe_Part1b.py
+## IMDB_Preprocess.py
 
 
-Part_2_Code
+## IMDB_BoW_basic_Part1a.py
+
+
+## IMDB_BoW_GloVe_Part1b.py
+
+
+# Part_2_Code
 
 
 
-Part_3_Code
+# Part_3_Code
 
