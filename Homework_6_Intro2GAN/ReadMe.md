@@ -1,10 +1,9 @@
-# Project Title
+# Introduction to Generative Adversarial Network (GAN)
 
-One Paragraph of project description goes here
+This project consists of training a simple Generative Adversarial Network on CIFAR-10 dataset in order to improve the accuracy of image classification, as well as build a simple generator of images. 
 
-## Getting Started
+* Train a baseline model based on CIFAR-10 dataset with 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
